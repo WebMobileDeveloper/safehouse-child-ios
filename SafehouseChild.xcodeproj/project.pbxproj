@@ -1,0 +1,1157 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B1F2DA64F384CEF651D177 /* Pods_SafehouseChildTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDA6DC4C99D9AFFB3F17972 /* Pods_SafehouseChildTests.framework */; };
+		7506C7AC1FA1E473004E6F06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7506C7AB1FA1E473004E6F06 /* GoogleService-Info.plist */; };
+		75886EBD1FB453BD006DF48A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75886EBC1FB453BD006DF48A /* NotificationCenter.framework */; };
+		75886EBF1FB453C5006DF48A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75886EBE1FB453C5006DF48A /* UserNotifications.framework */; };
+		758A24651FB6713F00196C93 /* addTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A24641FB6713E00196C93 /* addTextViewController.swift */; };
+		758B83851FB89E6E001E011C /* recordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758B83841FB89E6E001E011C /* recordingViewController.swift */; };
+		7591CFE71F8F230C00DD3420 /* Brandon Grotesque Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFE51F8F18C200DD3420 /* Brandon Grotesque Black.otf */; };
+		7591CFE81F8F230E00DD3420 /* BrandonGrotesque-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFE41F8F18C000DD3420 /* BrandonGrotesque-Bold.otf */; };
+		7591CFE91F8F231100DD3420 /* BrandonGrotesque-Light_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFDF1F8F18BA00DD3420 /* BrandonGrotesque-Light_bold.otf */; };
+		7591CFEA1F8F231300DD3420 /* BrandonGrotesque-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFE11F8F18BD00DD3420 /* BrandonGrotesque-Light.otf */; };
+		7591CFEB1F8F231500DD3420 /* BrandonGrotesque-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFE01F8F18BB00DD3420 /* BrandonGrotesque-Medium.otf */; };
+		7591CFEC1F8F231800DD3420 /* BrandonGrotesque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFE31F8F18BF00DD3420 /* BrandonGrotesque-Regular.otf */; };
+		7591CFED1F8F231B00DD3420 /* BrandonGrotesque-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7591CFE21F8F18BE00DD3420 /* BrandonGrotesque-Thin.otf */; };
+		7595F6861FB2D1FA0064682C /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595F6851FB2D1FA0064682C /* UserClass.swift */; };
+		75C616231FBC30C900AEDDC7 /* Pods_SafehouseChild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C616241FBC30C900AEDDC7 /* Pods_SafehouseChild.framework */; };
+		9616F7E961B2D5094ABD8C3F /* Pods_SafehouseChildUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9742593AB60BDCF80DFA4EA6 /* Pods_SafehouseChildUITests.framework */; };
+		AA027A561F73C30B00C727FB /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A4C1F73C30B00C727FB /* CountriesViewController.swift */; };
+		AA027A571F73C30B00C727FB /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A4D1F73C30B00C727FB /* PhoneNumberViewController.swift */; };
+		AA027A581F73C30B00C727FB /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A4F1F73C30B00C727FB /* Countries.swift */; };
+		AA027A591F73C30B00C727FB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A501F73C30B00C727FB /* Country.swift */; };
+		AA027A5A1F73C30B00C727FB /* PhoneNumberPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA027A521F73C30B00C727FB /* PhoneNumberPicker.storyboard */; };
+		AA027A5B1F73C30B00C727FB /* PNPHighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A531F73C30B00C727FB /* PNPHighlightButton.swift */; };
+		AA027A5C1F73C30B00C727FB /* PNPMenuDisabledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A541F73C30B00C727FB /* PNPMenuDisabledTextField.swift */; };
+		AA027A5D1F73C30B00C727FB /* PNPSideBordered.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA027A551F73C30B00C727FB /* PNPSideBordered.swift */; };
+		AA0752E51F716530006A7AF9 /* JEEPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0752E41F716530006A7AF9 /* JEEPageControl.swift */; };
+		AA0753711F72B47D006A7AF9 /* CustomAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0753701F72B47D006A7AF9 /* CustomAccessoryView.swift */; };
+		AA0753731F72B56F006A7AF9 /* CustomAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0753721F72B56F006A7AF9 /* CustomAccessoryView.xib */; };
+		AA07916A1F72ECE40070E74F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0791691F72ECE40070E74F /* UIView.swift */; };
+		AA081DBA1F8613B100976A40 /* emergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA081DB91F8613B100976A40 /* emergencyViewController.swift */; };
+		AA25F89E1F6FB48E00EFBA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25F89D1F6FB48E00EFBA56 /* AppDelegate.swift */; };
+		AA25F8A61F6FB48E00EFBA56 /* Safehouse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA25F8A41F6FB48E00EFBA56 /* Safehouse.xcdatamodeld */; };
+		AA25F8A81F6FB48E00EFBA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA25F8A71F6FB48E00EFBA56 /* Assets.xcassets */; };
+		AA25F8B61F6FB48E00EFBA56 /* SafehouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25F8B51F6FB48E00EFBA56 /* SafehouseTests.swift */; };
+		AA25F8C11F6FB48E00EFBA56 /* SafehouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA25F8C01F6FB48E00EFBA56 /* SafehouseUITests.swift */; };
+		AA3CB8C91F8018A00007CE4B /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3CB8C81F8018A00007CE4B /* CustomSegmentedControl.swift */; };
+		AA8F43191F79A83A006306FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F43141F79A83A006306FE /* LaunchScreen.storyboard */; };
+		AA8F431A1F79A83A006306FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F43151F79A83A006306FE /* Main.storyboard */; };
+		AA8F431B1F79A83A006306FE /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F43161F79A83A006306FE /* Map.storyboard */; };
+		AA8F431C1F79A83A006306FE /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F43171F79A83A006306FE /* SignIn.storyboard */; };
+		AA8F431D1F79A83A006306FE /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8F43181F79A83A006306FE /* SignUp.storyboard */; };
+		AA8F431F1F79A952006306FE /* SignInCheckPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F431E1F79A952006306FE /* SignInCheckPassViewController.swift */; };
+		AA8F43211F7A2A33006306FE /* zonePolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F43201F7A2A33006306FE /* zonePolygon.swift */; };
+		AA94F6ED1F85B38E00DD7855 /* checkInWithMomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94F6EB1F85B38E00DD7855 /* checkInWithMomViewController.swift */; };
+		AA94F6EE1F85B38E00DD7855 /* MapFamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94F6EC1F85B38E00DD7855 /* MapFamilyViewController.swift */; };
+		AA94F6F11F85B3B000DD7855 /* familyMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94F6F01F85B3B000DD7855 /* familyMemberTableViewCell.swift */; };
+		AA94F6F31F85D34B00DD7855 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA94F6F21F85D34B00DD7855 /* CameraViewController.swift */; };
+		AA95AAD81F79829000D85DB6 /* familyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95AAD71F79829000D85DB6 /* familyAnnotation.swift */; };
+		AAE38D881F745DF800EBE507 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D871F745DF800EBE507 /* Global.swift */; };
+		AAE38D991F75610A00EBE507 /* SignUpJoinFamilyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D911F75610A00EBE507 /* SignUpJoinFamilyController.swift */; };
+		AAE38D9A1F75610A00EBE507 /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D921F75610A00EBE507 /* SignUpPasswordViewController.swift */; };
+		AAE38D9B1F75610A00EBE507 /* SignUpPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D931F75610A00EBE507 /* SignUpPermissionViewController.swift */; };
+		AAE38D9C1F75610A00EBE507 /* SignUpPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D941F75610A00EBE507 /* SignUpPhoneViewController.swift */; };
+		AAE38D9D1F75610A00EBE507 /* SignUpProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D951F75610A00EBE507 /* SignUpProfileViewController.swift */; };
+		AAE38D9E1F75610A00EBE507 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38D961F75610A00EBE507 /* StartViewController.swift */; };
+		AAE38DAF1F756F8C00EBE507 /* SignUpEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38DAE1F756F8C00EBE507 /* SignUpEmailViewController.swift */; };
+		AAE38DBA1F75ADEA00EBE507 /* SignInForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38DB91F75ADEA00EBE507 /* SignInForgotViewController.swift */; };
+		AAE38DBC1F75C3FC00EBE507 /* SignInSentForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE38DBB1F75C3FC00EBE507 /* SignInSentForgotViewController.swift */; };
+		AAE5C9101F87D45800468567 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE38DC41F76C12700EBE507 /* MapKit.framework */; };
+		AAEE90D01F8681E80074982C /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE90CF1F8681E80074982C /* SRCountdownTimer.swift */; };
+		AAEE90D31F86CF670074982C /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE90D21F86CF670074982C /* settingsTableViewController.swift */; };
+		AAEE90D51F86D0270074982C /* editProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE90D41F86D0270074982C /* editProfileViewController.swift */; };
+		AAEE90D71F86D13A0074982C /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE90D61F86D13A0074982C /* changePasswordViewController.swift */; };
+		AAEE90D91F86D17D0074982C /* deleteAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE90D81F86D17D0074982C /* deleteAccountViewController.swift */; };
+		D81AF056E5CE2429B1FC4A25 /* Pods_SafehouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72242BD8549AD2998A8263C3 /* Pods_SafehouseTests.framework */; };
+		EE1C959AC0F159427FEE63F0 /* Pods_SafehouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3366395087F1403F5D58B650 /* Pods_SafehouseUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA25F8B21F6FB48E00EFBA56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA25F8921F6FB48E00EFBA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA25F8991F6FB48E00EFBA56;
+			remoteInfo = Safehouse;
+		};
+		AA25F8BD1F6FB48E00EFBA56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA25F8921F6FB48E00EFBA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA25F8991F6FB48E00EFBA56;
+			remoteInfo = Safehouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3366395087F1403F5D58B650 /* Pods_SafehouseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafehouseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D88339455E890D611B0DEA0 /* Pods-SafehouseChildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseChildTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseChildTests/Pods-SafehouseChildTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52AA27B2B1C6A636AD12A5F2 /* Pods-SafehouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseUITests/Pods-SafehouseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EEC76F6F6FCD2AD6CA7C81A /* Pods-SafehouseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseUITests/Pods-SafehouseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCAB3FFF31863C1FF2AB6AB /* Pods-SafehouseChild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseChild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseChild/Pods-SafehouseChild.debug.xcconfig"; sourceTree = "<group>"; };
+		72242BD8549AD2998A8263C3 /* Pods_SafehouseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafehouseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7506C7AB1FA1E473004E6F06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75886EBC1FB453BD006DF48A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		75886EBE1FB453C5006DF48A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		758A24641FB6713E00196C93 /* addTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addTextViewController.swift; path = views/MainViews/addTextViewController.swift; sourceTree = "<group>"; };
+		758B83841FB89E6E001E011C /* recordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = recordingViewController.swift; path = views/MainViews/recordingViewController.swift; sourceTree = "<group>"; };
+		7591CFDF1F8F18BA00DD3420 /* BrandonGrotesque-Light_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrandonGrotesque-Light_bold.otf"; path = "fonts/BrandonGrotesque-Light_bold.otf"; sourceTree = SOURCE_ROOT; };
+		7591CFE01F8F18BB00DD3420 /* BrandonGrotesque-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrandonGrotesque-Medium.otf"; path = "fonts/BrandonGrotesque-Medium.otf"; sourceTree = SOURCE_ROOT; };
+		7591CFE11F8F18BD00DD3420 /* BrandonGrotesque-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrandonGrotesque-Light.otf"; path = "fonts/BrandonGrotesque-Light.otf"; sourceTree = SOURCE_ROOT; };
+		7591CFE21F8F18BE00DD3420 /* BrandonGrotesque-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrandonGrotesque-Thin.otf"; path = "fonts/BrandonGrotesque-Thin.otf"; sourceTree = SOURCE_ROOT; };
+		7591CFE31F8F18BF00DD3420 /* BrandonGrotesque-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrandonGrotesque-Regular.otf"; path = "fonts/BrandonGrotesque-Regular.otf"; sourceTree = SOURCE_ROOT; };
+		7591CFE41F8F18C000DD3420 /* BrandonGrotesque-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BrandonGrotesque-Bold.otf"; path = "fonts/BrandonGrotesque-Bold.otf"; sourceTree = SOURCE_ROOT; };
+		7591CFE51F8F18C200DD3420 /* Brandon Grotesque Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Brandon Grotesque Black.otf"; path = "fonts/Brandon Grotesque Black.otf"; sourceTree = SOURCE_ROOT; };
+		7595F6851FB2D1FA0064682C /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		75C616241FBC30C900AEDDC7 /* Pods_SafehouseChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SafehouseChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E0F8371FBB5E0600C6862F /* SafehouseChild.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SafehouseChild.entitlements; sourceTree = "<group>"; };
+		75EB90C51368DB96C0FA24B7 /* Pods-SafehouseChildUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseChildUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseChildUITests/Pods-SafehouseChildUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B10307685C58004E14EF8D3 /* Pods-SafehouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseTests/Pods-SafehouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		8905895276D3FD3DD43382A1 /* Pods-Safehouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safehouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safehouse/Pods-Safehouse.release.xcconfig"; sourceTree = "<group>"; };
+		8E5E5D70A091BD35DC74BA50 /* Pods-SafehouseChildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseChildTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseChildTests/Pods-SafehouseChildTests.release.xcconfig"; sourceTree = "<group>"; };
+		93E6E2C7F3F78004B79684A8 /* Pods-SafehouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseTests/Pods-SafehouseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9742593AB60BDCF80DFA4EA6 /* Pods_SafehouseChildUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafehouseChildUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E32B68101B5C1953B1C28D /* Pods_SafehouseChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafehouseChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA027A4C1F73C30B00C727FB /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		AA027A4D1F73C30B00C727FB /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		AA027A4F1F73C30B00C727FB /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		AA027A501F73C30B00C727FB /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AA027A521F73C30B00C727FB /* PhoneNumberPicker.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PhoneNumberPicker.storyboard; sourceTree = "<group>"; };
+		AA027A531F73C30B00C727FB /* PNPHighlightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPHighlightButton.swift; sourceTree = "<group>"; };
+		AA027A541F73C30B00C727FB /* PNPMenuDisabledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPMenuDisabledTextField.swift; sourceTree = "<group>"; };
+		AA027A551F73C30B00C727FB /* PNPSideBordered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PNPSideBordered.swift; sourceTree = "<group>"; };
+		AA0752E41F716530006A7AF9 /* JEEPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JEEPageControl.swift; path = support/JEEPageControl.swift; sourceTree = "<group>"; };
+		AA0753701F72B47D006A7AF9 /* CustomAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomAccessoryView.swift; path = support/customAccessory/CustomAccessoryView.swift; sourceTree = "<group>"; };
+		AA0753721F72B56F006A7AF9 /* CustomAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomAccessoryView.xib; path = support/customAccessory/CustomAccessoryView.xib; sourceTree = "<group>"; };
+		AA0791691F72ECE40070E74F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = support/CustomUI/UIView.swift; sourceTree = "<group>"; };
+		AA081DB91F8613B100976A40 /* emergencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = emergencyViewController.swift; path = views/MainViews/emergencyViewController.swift; sourceTree = "<group>"; };
+		AA25F89A1F6FB48E00EFBA56 /* SafehouseChild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafehouseChild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA25F89D1F6FB48E00EFBA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA25F8A51F6FB48E00EFBA56 /* Safehouse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Safehouse.xcdatamodel; sourceTree = "<group>"; };
+		AA25F8A71F6FB48E00EFBA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA25F8AC1F6FB48E00EFBA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA25F8B11F6FB48E00EFBA56 /* SafehouseChildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafehouseChildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA25F8B51F6FB48E00EFBA56 /* SafehouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafehouseTests.swift; sourceTree = "<group>"; };
+		AA25F8B71F6FB48E00EFBA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA25F8BC1F6FB48E00EFBA56 /* SafehouseChildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafehouseChildUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA25F8C01F6FB48E00EFBA56 /* SafehouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafehouseUITests.swift; sourceTree = "<group>"; };
+		AA25F8C21F6FB48E00EFBA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3CB8C81F8018A00007CE4B /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegmentedControl.swift; path = support/CustomUI/CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		AA8F43141F79A83A006306FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Safehouse/storyboards/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		AA8F43151F79A83A006306FE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = storyboards/Main.storyboard; sourceTree = "<group>"; };
+		AA8F43161F79A83A006306FE /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Map.storyboard; path = storyboards/Map.storyboard; sourceTree = "<group>"; };
+		AA8F43171F79A83A006306FE /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SignIn.storyboard; path = Safehouse/storyboards/SignIn.storyboard; sourceTree = SOURCE_ROOT; };
+		AA8F43181F79A83A006306FE /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SignUp.storyboard; path = storyboards/SignUp.storyboard; sourceTree = "<group>"; };
+		AA8F431E1F79A952006306FE /* SignInCheckPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInCheckPassViewController.swift; path = views/SignInViews/SignInCheckPassViewController.swift; sourceTree = "<group>"; };
+		AA8F43201F7A2A33006306FE /* zonePolygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = zonePolygon.swift; path = support/zonePolygon.swift; sourceTree = "<group>"; };
+		AA94F6EB1F85B38E00DD7855 /* checkInWithMomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = checkInWithMomViewController.swift; path = views/MainViews/checkInWithMomViewController.swift; sourceTree = "<group>"; };
+		AA94F6EC1F85B38E00DD7855 /* MapFamilyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapFamilyViewController.swift; path = views/MainViews/MapFamilyViewController.swift; sourceTree = "<group>"; };
+		AA94F6F01F85B3B000DD7855 /* familyMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = familyMemberTableViewCell.swift; path = views/MainViews/cells/familyMemberTableViewCell.swift; sourceTree = "<group>"; };
+		AA94F6F21F85D34B00DD7855 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = views/MainViews/CameraViewController.swift; sourceTree = "<group>"; };
+		AA95AAD71F79829000D85DB6 /* familyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = familyAnnotation.swift; path = support/familyAnnotation.swift; sourceTree = "<group>"; };
+		AAE38D871F745DF800EBE507 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = support/Global.swift; sourceTree = "<group>"; };
+		AAE38D911F75610A00EBE507 /* SignUpJoinFamilyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpJoinFamilyController.swift; path = views/SignUpViews/SignUpJoinFamilyController.swift; sourceTree = "<group>"; };
+		AAE38D921F75610A00EBE507 /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpPasswordViewController.swift; path = views/SignUpViews/SignUpPasswordViewController.swift; sourceTree = "<group>"; };
+		AAE38D931F75610A00EBE507 /* SignUpPermissionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpPermissionViewController.swift; path = views/SignUpViews/SignUpPermissionViewController.swift; sourceTree = "<group>"; };
+		AAE38D941F75610A00EBE507 /* SignUpPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpPhoneViewController.swift; path = views/SignUpViews/SignUpPhoneViewController.swift; sourceTree = "<group>"; };
+		AAE38D951F75610A00EBE507 /* SignUpProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpProfileViewController.swift; path = views/SignUpViews/SignUpProfileViewController.swift; sourceTree = "<group>"; };
+		AAE38D961F75610A00EBE507 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = views/SignUpViews/StartViewController.swift; sourceTree = "<group>"; };
+		AAE38DAE1F756F8C00EBE507 /* SignUpEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpEmailViewController.swift; path = views/SignUpViews/SignUpEmailViewController.swift; sourceTree = "<group>"; };
+		AAE38DB91F75ADEA00EBE507 /* SignInForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInForgotViewController.swift; path = views/SignInViews/SignInForgotViewController.swift; sourceTree = "<group>"; };
+		AAE38DBB1F75C3FC00EBE507 /* SignInSentForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInSentForgotViewController.swift; path = views/SignInViews/SignInSentForgotViewController.swift; sourceTree = "<group>"; };
+		AAE38DC41F76C12700EBE507 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AAE38DC61F76C66200EBE507 /* Pods_Safehouse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Safehouse.framework; path = "../../../Library/Developer/Xcode/DerivedData/Safehouse-gtdiucimtzwjymgfzurcjggkuxlf/Build/Products/Debug-iphonesimulator/Pods_Safehouse.framework"; sourceTree = "<group>"; };
+		AAE5C90C1F87D21100468567 /* Pods_SafehouseChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SafehouseChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE5C90F1F87D44C00468567 /* Pods_SafehouseChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SafehouseChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEE90CF1F8681E80074982C /* SRCountdownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SRCountdownTimer.swift; path = support/CustomUI/SRCountdownTimer.swift; sourceTree = "<group>"; };
+		AAEE90D21F86CF670074982C /* settingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = settingsTableViewController.swift; path = views/MainViews/settingsTableViewController.swift; sourceTree = "<group>"; };
+		AAEE90D41F86D0270074982C /* editProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = editProfileViewController.swift; path = views/MainViews/editProfileViewController.swift; sourceTree = "<group>"; };
+		AAEE90D61F86D13A0074982C /* changePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = changePasswordViewController.swift; path = views/MainViews/changePasswordViewController.swift; sourceTree = "<group>"; };
+		AAEE90D81F86D17D0074982C /* deleteAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = deleteAccountViewController.swift; path = views/MainViews/deleteAccountViewController.swift; sourceTree = "<group>"; };
+		BCDA6DC4C99D9AFFB3F17972 /* Pods_SafehouseChildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafehouseChildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03957EE1242E14C6A5756D5 /* Pods-SafehouseChild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseChild.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseChild/Pods-SafehouseChild.release.xcconfig"; sourceTree = "<group>"; };
+		E1E98D8F658A7A70321AF303 /* Pods-Safehouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safehouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Safehouse/Pods-Safehouse.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E59EA1E7122ED822811552 /* Pods_Safehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99185415F2EF9EF82AAD8B3 /* Pods-SafehouseChildUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafehouseChildUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafehouseChildUITests/Pods-SafehouseChildUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA25F8971F6FB48E00EFBA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C616231FBC30C900AEDDC7 /* Pods_SafehouseChild.framework in Frameworks */,
+				75886EBF1FB453C5006DF48A /* UserNotifications.framework in Frameworks */,
+				75886EBD1FB453BD006DF48A /* NotificationCenter.framework in Frameworks */,
+				AAE5C9101F87D45800468567 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25F8AE1F6FB48E00EFBA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81AF056E5CE2429B1FC4A25 /* Pods_SafehouseTests.framework in Frameworks */,
+				66B1F2DA64F384CEF651D177 /* Pods_SafehouseChildTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25F8B91F6FB48E00EFBA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1C959AC0F159427FEE63F0 /* Pods_SafehouseUITests.framework in Frameworks */,
+				9616F7E961B2D5094ABD8C3F /* Pods_SafehouseChildUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205B6C5DDD9D507FDFFA15E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C616241FBC30C900AEDDC7 /* Pods_SafehouseChild.framework */,
+				75886EBE1FB453C5006DF48A /* UserNotifications.framework */,
+				75886EBC1FB453BD006DF48A /* NotificationCenter.framework */,
+				AAE5C90F1F87D44C00468567 /* Pods_SafehouseChild.framework */,
+				AAE5C90C1F87D21100468567 /* Pods_SafehouseChild.framework */,
+				AAE38DC61F76C66200EBE507 /* Pods_Safehouse.framework */,
+				AAE38DC41F76C12700EBE507 /* MapKit.framework */,
+				F1E59EA1E7122ED822811552 /* Pods_Safehouse.framework */,
+				72242BD8549AD2998A8263C3 /* Pods_SafehouseTests.framework */,
+				3366395087F1403F5D58B650 /* Pods_SafehouseUITests.framework */,
+				A1E32B68101B5C1953B1C28D /* Pods_SafehouseChild.framework */,
+				BCDA6DC4C99D9AFFB3F17972 /* Pods_SafehouseChildTests.framework */,
+				9742593AB60BDCF80DFA4EA6 /* Pods_SafehouseChildUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DAA4992B48837FB888B3DFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1E98D8F658A7A70321AF303 /* Pods-Safehouse.debug.xcconfig */,
+				8905895276D3FD3DD43382A1 /* Pods-Safehouse.release.xcconfig */,
+				93E6E2C7F3F78004B79684A8 /* Pods-SafehouseTests.debug.xcconfig */,
+				7B10307685C58004E14EF8D3 /* Pods-SafehouseTests.release.xcconfig */,
+				5EEC76F6F6FCD2AD6CA7C81A /* Pods-SafehouseUITests.debug.xcconfig */,
+				52AA27B2B1C6A636AD12A5F2 /* Pods-SafehouseUITests.release.xcconfig */,
+				5FCAB3FFF31863C1FF2AB6AB /* Pods-SafehouseChild.debug.xcconfig */,
+				C03957EE1242E14C6A5756D5 /* Pods-SafehouseChild.release.xcconfig */,
+				3D88339455E890D611B0DEA0 /* Pods-SafehouseChildTests.debug.xcconfig */,
+				8E5E5D70A091BD35DC74BA50 /* Pods-SafehouseChildTests.release.xcconfig */,
+				75EB90C51368DB96C0FA24B7 /* Pods-SafehouseChildUITests.debug.xcconfig */,
+				F99185415F2EF9EF82AAD8B3 /* Pods-SafehouseChildUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7591CFDE1F8F189500DD3420 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7591CFE51F8F18C200DD3420 /* Brandon Grotesque Black.otf */,
+				7591CFE41F8F18C000DD3420 /* BrandonGrotesque-Bold.otf */,
+				7591CFDF1F8F18BA00DD3420 /* BrandonGrotesque-Light_bold.otf */,
+				7591CFE11F8F18BD00DD3420 /* BrandonGrotesque-Light.otf */,
+				7591CFE01F8F18BB00DD3420 /* BrandonGrotesque-Medium.otf */,
+				7591CFE31F8F18BF00DD3420 /* BrandonGrotesque-Regular.otf */,
+				7591CFE21F8F18BE00DD3420 /* BrandonGrotesque-Thin.otf */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		7595F6821FB2D1E00064682C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7595F6851FB2D1FA0064682C /* UserClass.swift */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		AA027A451F73C1D600C727FB /* phoneNumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AA027A4B1F73C30B00C727FB /* Controller */,
+				AA027A4E1F73C30B00C727FB /* Model */,
+				AA027A511F73C30B00C727FB /* View */,
+			);
+			name = phoneNumberPicker;
+			sourceTree = "<group>";
+		};
+		AA027A4B1F73C30B00C727FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA027A4C1F73C30B00C727FB /* CountriesViewController.swift */,
+				AA027A4D1F73C30B00C727FB /* PhoneNumberViewController.swift */,
+			);
+			name = Controller;
+			path = support/phoneNumberPicker/Controller;
+			sourceTree = "<group>";
+		};
+		AA027A4E1F73C30B00C727FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA027A4F1F73C30B00C727FB /* Countries.swift */,
+				AA027A501F73C30B00C727FB /* Country.swift */,
+			);
+			name = Model;
+			path = support/phoneNumberPicker/Model;
+			sourceTree = "<group>";
+		};
+		AA027A511F73C30B00C727FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA027A521F73C30B00C727FB /* PhoneNumberPicker.storyboard */,
+				AA027A531F73C30B00C727FB /* PNPHighlightButton.swift */,
+				AA027A541F73C30B00C727FB /* PNPMenuDisabledTextField.swift */,
+				AA027A551F73C30B00C727FB /* PNPSideBordered.swift */,
+			);
+			name = View;
+			path = support/phoneNumberPicker/View;
+			sourceTree = "<group>";
+		};
+		AA0752DD1F71621B006A7AF9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AA94F6EA1F85B37E00DD7855 /* MainViews */,
+				AAE38D9F1F7561AA00EBE507 /* SignInViews */,
+				AAE38D8E1F755F6700EBE507 /* SignUpViews */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		AA07536F1F72B42E006A7AF9 /* CustomAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				AA0753701F72B47D006A7AF9 /* CustomAccessoryView.swift */,
+				AA0753721F72B56F006A7AF9 /* CustomAccessoryView.xib */,
+			);
+			name = CustomAccessoryView;
+			sourceTree = "<group>";
+		};
+		AA0791661F72EBAB0070E74F /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				AA0791691F72ECE40070E74F /* UIView.swift */,
+				AA3CB8C81F8018A00007CE4B /* CustomSegmentedControl.swift */,
+				AAEE90CF1F8681E80074982C /* SRCountdownTimer.swift */,
+			);
+			name = CustomUI;
+			sourceTree = "<group>";
+		};
+		AA25F8911F6FB48E00EFBA56 = {
+			isa = PBXGroup;
+			children = (
+				AA25F89C1F6FB48E00EFBA56 /* Safehouse */,
+				AA25F8B41F6FB48E00EFBA56 /* SafehouseTests */,
+				AA25F8BF1F6FB48E00EFBA56 /* SafehouseUITests */,
+				AA25F89B1F6FB48E00EFBA56 /* Products */,
+				4DAA4992B48837FB888B3DFA /* Pods */,
+				205B6C5DDD9D507FDFFA15E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA25F89B1F6FB48E00EFBA56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA25F89A1F6FB48E00EFBA56 /* SafehouseChild.app */,
+				AA25F8B11F6FB48E00EFBA56 /* SafehouseChildTests.xctest */,
+				AA25F8BC1F6FB48E00EFBA56 /* SafehouseChildUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA25F89C1F6FB48E00EFBA56 /* Safehouse */ = {
+			isa = PBXGroup;
+			children = (
+				AAE38DB01F75721300EBE507 /* storyboards */,
+				AA0752DD1F71621B006A7AF9 /* views */,
+				AA4CCD621F7104AC0059C234 /* supports */,
+				AA25F89D1F6FB48E00EFBA56 /* AppDelegate.swift */,
+				AA25F8A71F6FB48E00EFBA56 /* Assets.xcassets */,
+				75E0F8371FBB5E0600C6862F /* SafehouseChild.entitlements */,
+				7506C7AB1FA1E473004E6F06 /* GoogleService-Info.plist */,
+				AA25F8AC1F6FB48E00EFBA56 /* Info.plist */,
+				AA25F8A41F6FB48E00EFBA56 /* Safehouse.xcdatamodeld */,
+			);
+			path = Safehouse;
+			sourceTree = "<group>";
+		};
+		AA25F8B41F6FB48E00EFBA56 /* SafehouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA25F8B51F6FB48E00EFBA56 /* SafehouseTests.swift */,
+				AA25F8B71F6FB48E00EFBA56 /* Info.plist */,
+			);
+			path = SafehouseTests;
+			sourceTree = "<group>";
+		};
+		AA25F8BF1F6FB48E00EFBA56 /* SafehouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA25F8C01F6FB48E00EFBA56 /* SafehouseUITests.swift */,
+				AA25F8C21F6FB48E00EFBA56 /* Info.plist */,
+			);
+			path = SafehouseUITests;
+			sourceTree = "<group>";
+		};
+		AA4CCD621F7104AC0059C234 /* supports */ = {
+			isa = PBXGroup;
+			children = (
+				7595F6821FB2D1E00064682C /* Firebase */,
+				7591CFDE1F8F189500DD3420 /* fonts */,
+				AA0791661F72EBAB0070E74F /* CustomUI */,
+				AA07536F1F72B42E006A7AF9 /* CustomAccessoryView */,
+				AA027A451F73C1D600C727FB /* phoneNumberPicker */,
+				AA0752E41F716530006A7AF9 /* JEEPageControl.swift */,
+				AAE38D871F745DF800EBE507 /* Global.swift */,
+				AA95AAD71F79829000D85DB6 /* familyAnnotation.swift */,
+				AA8F43201F7A2A33006306FE /* zonePolygon.swift */,
+			);
+			name = supports;
+			sourceTree = "<group>";
+		};
+		AA94F6EA1F85B37E00DD7855 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA94F6EC1F85B38E00DD7855 /* MapFamilyViewController.swift */,
+				AA94F6EB1F85B38E00DD7855 /* checkInWithMomViewController.swift */,
+				758A24641FB6713E00196C93 /* addTextViewController.swift */,
+				AA94F6F21F85D34B00DD7855 /* CameraViewController.swift */,
+				AA081DB91F8613B100976A40 /* emergencyViewController.swift */,
+				758B83841FB89E6E001E011C /* recordingViewController.swift */,
+				AAEE90D21F86CF670074982C /* settingsTableViewController.swift */,
+				AAEE90D41F86D0270074982C /* editProfileViewController.swift */,
+				AAEE90D61F86D13A0074982C /* changePasswordViewController.swift */,
+				AAEE90D81F86D17D0074982C /* deleteAccountViewController.swift */,
+				AA94F6EF1F85B39F00DD7855 /* cells */,
+			);
+			name = MainViews;
+			sourceTree = "<group>";
+		};
+		AA94F6EF1F85B39F00DD7855 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				AA94F6F01F85B3B000DD7855 /* familyMemberTableViewCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		AAE38D8E1F755F6700EBE507 /* SignUpViews */ = {
+			isa = PBXGroup;
+			children = (
+				AAE38D961F75610A00EBE507 /* StartViewController.swift */,
+				AAE38D941F75610A00EBE507 /* SignUpPhoneViewController.swift */,
+				AAE38D921F75610A00EBE507 /* SignUpPasswordViewController.swift */,
+				AAE38DAE1F756F8C00EBE507 /* SignUpEmailViewController.swift */,
+				AAE38D951F75610A00EBE507 /* SignUpProfileViewController.swift */,
+				AAE38D911F75610A00EBE507 /* SignUpJoinFamilyController.swift */,
+				AAE38D931F75610A00EBE507 /* SignUpPermissionViewController.swift */,
+			);
+			name = SignUpViews;
+			sourceTree = "<group>";
+		};
+		AAE38D9F1F7561AA00EBE507 /* SignInViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F431E1F79A952006306FE /* SignInCheckPassViewController.swift */,
+				AAE38DB91F75ADEA00EBE507 /* SignInForgotViewController.swift */,
+				AAE38DBB1F75C3FC00EBE507 /* SignInSentForgotViewController.swift */,
+			);
+			name = SignInViews;
+			sourceTree = "<group>";
+		};
+		AAE38DB01F75721300EBE507 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F43141F79A83A006306FE /* LaunchScreen.storyboard */,
+				AA8F43151F79A83A006306FE /* Main.storyboard */,
+				AA8F43161F79A83A006306FE /* Map.storyboard */,
+				AA8F43171F79A83A006306FE /* SignIn.storyboard */,
+				AA8F43181F79A83A006306FE /* SignUp.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA25F8991F6FB48E00EFBA56 /* SafehouseChild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA25F8C51F6FB48E00EFBA56 /* Build configuration list for PBXNativeTarget "SafehouseChild" */;
+			buildPhases = (
+				1B446020EB165205F148D182 /* [CP] Check Pods Manifest.lock */,
+				AA25F8961F6FB48E00EFBA56 /* Sources */,
+				AA25F8971F6FB48E00EFBA56 /* Frameworks */,
+				AA25F8981F6FB48E00EFBA56 /* Resources */,
+				A2609D919BA6776F196258BC /* [CP] Embed Pods Frameworks */,
+				F35CAC9E1725AE75255D575C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafehouseChild;
+			productName = Safehouse;
+			productReference = AA25F89A1F6FB48E00EFBA56 /* SafehouseChild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA25F8B01F6FB48E00EFBA56 /* SafehouseChildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA25F8C81F6FB48E00EFBA56 /* Build configuration list for PBXNativeTarget "SafehouseChildTests" */;
+			buildPhases = (
+				C7250CE12E4DB2F6021A98BE /* [CP] Check Pods Manifest.lock */,
+				AA25F8AD1F6FB48E00EFBA56 /* Sources */,
+				AA25F8AE1F6FB48E00EFBA56 /* Frameworks */,
+				AA25F8AF1F6FB48E00EFBA56 /* Resources */,
+				92B0AC94D9B02D1B014DE403 /* [CP] Embed Pods Frameworks */,
+				52B7A5DC55F83889E9B91A1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA25F8B31F6FB48E00EFBA56 /* PBXTargetDependency */,
+			);
+			name = SafehouseChildTests;
+			productName = SafehouseTests;
+			productReference = AA25F8B11F6FB48E00EFBA56 /* SafehouseChildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA25F8BB1F6FB48E00EFBA56 /* SafehouseChildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA25F8CB1F6FB48E00EFBA56 /* Build configuration list for PBXNativeTarget "SafehouseChildUITests" */;
+			buildPhases = (
+				8EA24051ACE3033D43C8E6BE /* [CP] Check Pods Manifest.lock */,
+				AA25F8B81F6FB48E00EFBA56 /* Sources */,
+				AA25F8B91F6FB48E00EFBA56 /* Frameworks */,
+				AA25F8BA1F6FB48E00EFBA56 /* Resources */,
+				95AC282CB84AF39EAE0DEC95 /* [CP] Embed Pods Frameworks */,
+				89D34C9AC7AE97F0A00D071F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA25F8BE1F6FB48E00EFBA56 /* PBXTargetDependency */,
+			);
+			name = SafehouseChildUITests;
+			productName = SafehouseUITests;
+			productReference = AA25F8BC1F6FB48E00EFBA56 /* SafehouseChildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA25F8921F6FB48E00EFBA56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Delicious;
+				TargetAttributes = {
+					AA25F8991F6FB48E00EFBA56 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = M484P4E7DQ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AA25F8B01F6FB48E00EFBA56 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA25F8991F6FB48E00EFBA56;
+					};
+					AA25F8BB1F6FB48E00EFBA56 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA25F8991F6FB48E00EFBA56;
+					};
+				};
+			};
+			buildConfigurationList = AA25F8951F6FB48E00EFBA56 /* Build configuration list for PBXProject "SafehouseChild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA25F8911F6FB48E00EFBA56;
+			productRefGroup = AA25F89B1F6FB48E00EFBA56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA25F8991F6FB48E00EFBA56 /* SafehouseChild */,
+				AA25F8B01F6FB48E00EFBA56 /* SafehouseChildTests */,
+				AA25F8BB1F6FB48E00EFBA56 /* SafehouseChildUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA25F8981F6FB48E00EFBA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA027A5A1F73C30B00C727FB /* PhoneNumberPicker.storyboard in Resources */,
+				7591CFEA1F8F231300DD3420 /* BrandonGrotesque-Light.otf in Resources */,
+				AA8F431A1F79A83A006306FE /* Main.storyboard in Resources */,
+				AA8F43191F79A83A006306FE /* LaunchScreen.storyboard in Resources */,
+				AA0753731F72B56F006A7AF9 /* CustomAccessoryView.xib in Resources */,
+				7591CFEB1F8F231500DD3420 /* BrandonGrotesque-Medium.otf in Resources */,
+				AA25F8A81F6FB48E00EFBA56 /* Assets.xcassets in Resources */,
+				7591CFE91F8F231100DD3420 /* BrandonGrotesque-Light_bold.otf in Resources */,
+				AA8F431C1F79A83A006306FE /* SignIn.storyboard in Resources */,
+				7506C7AC1FA1E473004E6F06 /* GoogleService-Info.plist in Resources */,
+				AA8F431D1F79A83A006306FE /* SignUp.storyboard in Resources */,
+				AA8F431B1F79A83A006306FE /* Map.storyboard in Resources */,
+				7591CFE71F8F230C00DD3420 /* Brandon Grotesque Black.otf in Resources */,
+				7591CFE81F8F230E00DD3420 /* BrandonGrotesque-Bold.otf in Resources */,
+				7591CFEC1F8F231800DD3420 /* BrandonGrotesque-Regular.otf in Resources */,
+				7591CFED1F8F231B00DD3420 /* BrandonGrotesque-Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25F8AF1F6FB48E00EFBA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25F8BA1F6FB48E00EFBA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B446020EB165205F148D182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafehouseChild-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52B7A5DC55F83889E9B91A1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChildTests/Pods-SafehouseChildTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D34C9AC7AE97F0A00D071F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChildUITests/Pods-SafehouseChildUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA24051ACE3033D43C8E6BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafehouseChildUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B0AC94D9B02D1B014DE403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChildTests/Pods-SafehouseChildTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95AC282CB84AF39EAE0DEC95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChildUITests/Pods-SafehouseChildUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2609D919BA6776F196258BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChild/Pods-SafehouseChild-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChild/Pods-SafehouseChild-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7250CE12E4DB2F6021A98BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafehouseChildTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35CAC9E1725AE75255D575C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafehouseChild/Pods-SafehouseChild-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA25F8961F6FB48E00EFBA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA25F8A61F6FB48E00EFBA56 /* Safehouse.xcdatamodeld in Sources */,
+				AAE38D9B1F75610A00EBE507 /* SignUpPermissionViewController.swift in Sources */,
+				AA027A571F73C30B00C727FB /* PhoneNumberViewController.swift in Sources */,
+				AA95AAD81F79829000D85DB6 /* familyAnnotation.swift in Sources */,
+				AA0752E51F716530006A7AF9 /* JEEPageControl.swift in Sources */,
+				AA3CB8C91F8018A00007CE4B /* CustomSegmentedControl.swift in Sources */,
+				AAE38D881F745DF800EBE507 /* Global.swift in Sources */,
+				AA027A5B1F73C30B00C727FB /* PNPHighlightButton.swift in Sources */,
+				AAEE90D71F86D13A0074982C /* changePasswordViewController.swift in Sources */,
+				758A24651FB6713F00196C93 /* addTextViewController.swift in Sources */,
+				AAE38D9E1F75610A00EBE507 /* StartViewController.swift in Sources */,
+				AA94F6ED1F85B38E00DD7855 /* checkInWithMomViewController.swift in Sources */,
+				AAE38DBA1F75ADEA00EBE507 /* SignInForgotViewController.swift in Sources */,
+				AAEE90D91F86D17D0074982C /* deleteAccountViewController.swift in Sources */,
+				AA027A591F73C30B00C727FB /* Country.swift in Sources */,
+				AA027A561F73C30B00C727FB /* CountriesViewController.swift in Sources */,
+				AAE38D9C1F75610A00EBE507 /* SignUpPhoneViewController.swift in Sources */,
+				AA94F6F31F85D34B00DD7855 /* CameraViewController.swift in Sources */,
+				758B83851FB89E6E001E011C /* recordingViewController.swift in Sources */,
+				AAEE90D51F86D0270074982C /* editProfileViewController.swift in Sources */,
+				AA94F6F11F85B3B000DD7855 /* familyMemberTableViewCell.swift in Sources */,
+				AA94F6EE1F85B38E00DD7855 /* MapFamilyViewController.swift in Sources */,
+				AAEE90D31F86CF670074982C /* settingsTableViewController.swift in Sources */,
+				AA0753711F72B47D006A7AF9 /* CustomAccessoryView.swift in Sources */,
+				AA07916A1F72ECE40070E74F /* UIView.swift in Sources */,
+				AA8F43211F7A2A33006306FE /* zonePolygon.swift in Sources */,
+				AA8F431F1F79A952006306FE /* SignInCheckPassViewController.swift in Sources */,
+				AA081DBA1F8613B100976A40 /* emergencyViewController.swift in Sources */,
+				AAE38D9A1F75610A00EBE507 /* SignUpPasswordViewController.swift in Sources */,
+				AAE38D9D1F75610A00EBE507 /* SignUpProfileViewController.swift in Sources */,
+				AAEE90D01F8681E80074982C /* SRCountdownTimer.swift in Sources */,
+				AAE38DBC1F75C3FC00EBE507 /* SignInSentForgotViewController.swift in Sources */,
+				AA027A5D1F73C30B00C727FB /* PNPSideBordered.swift in Sources */,
+				AA25F89E1F6FB48E00EFBA56 /* AppDelegate.swift in Sources */,
+				AA027A581F73C30B00C727FB /* Countries.swift in Sources */,
+				AAE38DAF1F756F8C00EBE507 /* SignUpEmailViewController.swift in Sources */,
+				AAE38D991F75610A00EBE507 /* SignUpJoinFamilyController.swift in Sources */,
+				7595F6861FB2D1FA0064682C /* UserClass.swift in Sources */,
+				AA027A5C1F73C30B00C727FB /* PNPMenuDisabledTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25F8AD1F6FB48E00EFBA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA25F8B61F6FB48E00EFBA56 /* SafehouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA25F8B81F6FB48E00EFBA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA25F8C11F6FB48E00EFBA56 /* SafehouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA25F8B31F6FB48E00EFBA56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA25F8991F6FB48E00EFBA56 /* SafehouseChild */;
+			targetProxy = AA25F8B21F6FB48E00EFBA56 /* PBXContainerItemProxy */;
+		};
+		AA25F8BE1F6FB48E00EFBA56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA25F8991F6FB48E00EFBA56 /* SafehouseChild */;
+			targetProxy = AA25F8BD1F6FB48E00EFBA56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA25F8C31F6FB48E00EFBA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA25F8C41F6FB48E00EFBA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA25F8C61F6FB48E00EFBA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCAB3FFF31863C1FF2AB6AB /* Pods-SafehouseChild.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Safehouse/SafehouseChild.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M484P4E7DQ;
+				INFOPLIST_FILE = Safehouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safehouse.child;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA25F8C71F6FB48E00EFBA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03957EE1242E14C6A5756D5 /* Pods-SafehouseChild.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Safehouse/SafehouseChild.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M484P4E7DQ;
+				INFOPLIST_FILE = Safehouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safehouse.child;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA25F8C91F6FB48E00EFBA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D88339455E890D611B0DEA0 /* Pods-SafehouseChildTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafehouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safehouse.SafehouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafehouseChild.app/SafehouseChild";
+			};
+			name = Debug;
+		};
+		AA25F8CA1F6FB48E00EFBA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5E5D70A091BD35DC74BA50 /* Pods-SafehouseChildTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafehouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safehouse.SafehouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafehouseChild.app/SafehouseChild";
+			};
+			name = Release;
+		};
+		AA25F8CC1F6FB48E00EFBA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EB90C51368DB96C0FA24B7 /* Pods-SafehouseChildUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SafehouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safehouse.SafehouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Safehouse;
+			};
+			name = Debug;
+		};
+		AA25F8CD1F6FB48E00EFBA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99185415F2EF9EF82AAD8B3 /* Pods-SafehouseChildUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SafehouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.safehouse.SafehouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Safehouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA25F8951F6FB48E00EFBA56 /* Build configuration list for PBXProject "SafehouseChild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA25F8C31F6FB48E00EFBA56 /* Debug */,
+				AA25F8C41F6FB48E00EFBA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA25F8C51F6FB48E00EFBA56 /* Build configuration list for PBXNativeTarget "SafehouseChild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA25F8C61F6FB48E00EFBA56 /* Debug */,
+				AA25F8C71F6FB48E00EFBA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA25F8C81F6FB48E00EFBA56 /* Build configuration list for PBXNativeTarget "SafehouseChildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA25F8C91F6FB48E00EFBA56 /* Debug */,
+				AA25F8CA1F6FB48E00EFBA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA25F8CB1F6FB48E00EFBA56 /* Build configuration list for PBXNativeTarget "SafehouseChildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA25F8CC1F6FB48E00EFBA56 /* Debug */,
+				AA25F8CD1F6FB48E00EFBA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA25F8A41F6FB48E00EFBA56 /* Safehouse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA25F8A51F6FB48E00EFBA56 /* Safehouse.xcdatamodel */,
+			);
+			currentVersion = AA25F8A51F6FB48E00EFBA56 /* Safehouse.xcdatamodel */;
+			path = Safehouse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA25F8921F6FB48E00EFBA56 /* Project object */;
+}
